@@ -4,26 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://example.com/image.jpg" />
-    <meta property="og:image" content="https://i.ibb.co/XYP242Y/18.png" />
-    <meta name="fc:frame:post_url" content="https://example.com/handle_request" />
-    <meta name="fc:frame:button:1" content="Click Me" />
-    <meta name="fc:frame:button:1:action" content="post" />
-    <meta name="fc:frame:button:1:post_url" content="https://example.com/handle_request" />
-    <title>Simple Frame</title>
+    <meta property="fc:frame:image" content="https://i.ibb.co/5K4BZLS/download-3.png" />
+    <meta property="og:image" content="https://i.ibb.co/5K4BZLS/download-3.png" />
+    <!-- Optional button example -->
+    <meta property="fc:frame:button:1" content="Click Me" />
+    <meta property="fc:frame:button:1:action" content="link" />
+    <meta property="fc:frame:button:1:target" content="https://www.example.com" />
+    <!-- Optional text input example -->
+    <meta property="fc:frame:input:text" content="Enter your message" />
+    <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
+    <title>Farcaster Frame</title>
 </head>
 <body>
-    <h1>Welcome to My Frame</h1>
-    <p>This is a simple frame example.</p>
-    <img src="https://i.ibb.co/XYP242Y/18.png" alt="Frame Image" style="width: 100%; aspect-ratio: 1.91 / 1;">
-    <button onclick="handleButtonClick()">Click Me</button>
-    
-    <script>
-        function handleButtonClick() {
-            // Normally, this would be handled server-side, but for simplicity, we just log here.
-            console.log('Button clicked!');
-            // In a real implementation, you would send a POST request to the post_url here.
-        }
-    </script>
+    <!-- You can optionally include more HTML here for testing in a browser -->
 </body>
 </html>
